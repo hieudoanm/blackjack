@@ -11,7 +11,7 @@ overrides:
   cross-spawn: 7.0.6
   debug: 4.4.3
   express: 5.1.0
-  got: 14.6.3
+  got: 14.6.4
   marked: 17.0.0
   nanoid: 5.1.6
   postcss: 8.5.6
@@ -4654,8 +4654,8 @@ packages:
     resolution: {integrity: sha512-ZUKRh6/kUFoAiTAtTYPZJ3hw9wNxx+BIBOijnlG9PnrJsCcSjs1wyyD6vJpaYtgnzDrKYRSqf3OO6Rfa93xsRg==}
     engines: {node: '>= 0.4'}
 
-  got@14.6.3:
-    resolution: {integrity: sha512-u1nNamHo7oAkyTkMD7g0F0pIvW6vNAF9CCmtkh8ZQrlToKJZ5wEPQHFqt6RzaZC0rJMzH+rnjIElyTsIkT0wQw==}
+  got@14.6.4:
+    resolution: {integrity: sha512-DjsLab39NUMf5iYlK9asVCkHMhaA2hEhrlmf+qXRhjEivuuBHWYbjmty9DA3OORUwZgENTB+6vSmY2ZW8gFHVw==}
     engines: {node: '>=20'}
 
   graceful-fs@4.2.10:
@@ -14228,7 +14228,7 @@ snapshots:
 
   gopd@1.2.0: {}
 
-  got@14.6.3:
+  got@14.6.4:
     dependencies:
       '@sindresorhus/is': 7.1.0
       byte-counter: 0.1.0
@@ -16105,14 +16105,14 @@ snapshots:
 
   package-json@6.5.0:
     dependencies:
-      got: 14.6.3
+      got: 14.6.4
       registry-auth-token: 4.2.2
       registry-url: 5.1.0
       semver: 7.7.3
 
   package-json@8.1.1:
     dependencies:
-      got: 14.6.3
+      got: 14.6.4
       registry-auth-token: 5.1.0
       registry-url: 6.0.1
       semver: 7.7.3
