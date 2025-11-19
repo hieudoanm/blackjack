@@ -54,7 +54,7 @@
     "postcss": "8.5.6",
     "prettier": "3.6.2",
     "prettier-plugin-tailwindcss": "0.7.1",
-    "prisma": "6.19.0",
+    "prisma": "7.0.0",
     "rimraf": "6.1.0",
     "sass": "1.94.1",
     "tailwindcss": "4.1.17",
