@@ -1,0 +1,26 @@
+{
+  "name": "@chat/app",
+  "version": "0.0.1",
+  "description": "Chat",
+  "scripts": {
+    "format": "turbo run format",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "dev": "turbo run dev",
+    "prepare": "husky || true"
+  },
+  "keywords": [],
+  "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",
+  "license": "GPL-3.0",
+  "packageManager": "pnpm@10.23.0",
+  "devDependencies": {
+    "husky": "9.1.7",
+    "kill-port": "2.0.1",
+    "prettier": "3.6.2",
+    "prettier-plugin-tailwindcss": "0.7.1",
+    "rimraf": "6.1.2",
+    "ts-node": "10.9.2",
+    "turbo": "2.6.1"
+  }
+}
