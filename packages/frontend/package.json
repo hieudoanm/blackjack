@@ -1,0 +1,55 @@
+{
+	"name": "@blackjack/frontend",
+	"version": "0.0.1",
+	"private": true,
+	"description": "Blackjack",
+	"keywords": [
+		"blackjack",
+		"tools"
+	],
+	"homepage": "https://github.com/hieudoanm/blackjack#readme",
+	"bugs": {
+		"url": "https://github.com/hieudoanm/blackjack/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/hieudoanm/blackjack.git"
+	},
+	"license": "GPL-3.0",
+	"author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",
+	"packageManager": "pnpm@10.23.0",
+	"scripts": {
+		"predev": "kill-port 3000",
+		"dev": "next dev --turbopack",
+		"prebuild": "rimraf .next ../../docs",
+		"build": "next build --turbopack",
+		"postbuild": "touch ../../docs/.nojekyll",
+		"prestart": "kill-port 3000",
+		"start": "next start",
+		"pretest": "prisma generate",
+		"test": "jest",
+		"format": "prettier --cache --write .",
+		"lint": "eslint"
+	},
+	"dependencies": {
+		"next": "16.0.3",
+		"react": "19.2.0",
+		"react-dom": "19.2.0"
+	},
+	"devDependencies": {
+		"@tailwindcss/postcss": "4.1.17",
+		"@types/node": "24.10.1",
+		"@types/react": "19.2.6",
+		"@types/react-dom": "19.2.3",
+		"babel-plugin-react-compiler": "1.0.0",
+		"daisyui": "5.5.5",
+		"eslint": "9.39.1",
+		"eslint-config-next": "16.0.3",
+		"kill-port": "2.0.1",
+		"prettier": "3.6.2",
+		"prettier-plugin-tailwindcss": "0.7.1",
+		"rimraf": "6.1.2",
+		"tailwindcss": "4.1.17",
+		"typescript": "5.9.3"
+	}
+}
