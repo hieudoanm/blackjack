@@ -4,7 +4,7 @@
 	"version": "0.1.0",
 	"identifier": "io.github.hieudoanm.blackjack",
 	"build": {
-		"frontendDist": "../../docs",
+		"frontendDist": "../../../docs",
 		"devUrl": "http://localhost:3000",
 		"beforeDevCommand": "pnpm dev",
 		"beforeBuildCommand": "pnpm build"
