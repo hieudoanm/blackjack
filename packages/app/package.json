@@ -1,5 +1,5 @@
 {
-	"name": "@blackjack/frontend",
+	"name": "@blackjack/app",
 	"version": "0.0.1",
 	"private": true,
 	"description": "Blackjack",
