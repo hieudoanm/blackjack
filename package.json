@@ -2,28 +2,33 @@
   "name": "@blackjack/app",
   "version": "0.0.1",
   "description": "Blackjack",
+  "keywords": [
+    "blackjack"
+  ],
+  "homepage": "https://hieudoanm.github.io/blackjack",
+  "bugs": {
+    "url": "https://github.com/hieudoanm/blackjack/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hieudoanm/blackjack.git"
+  },
+  "license": "GPL-3.0",
+  "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",
+  "packageManager": "pnpm@10.25.0",
   "engines": {
     "node": "24.12.0"
   },
   "scripts": {
-    "format": "turbo run format",
-    "build": "turbo run build",
+    "dev": "turbo run dev",
     "lint": "turbo run lint",
     "test": "turbo run test",
-    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "format": "turbo run format",
     "prepare": "husky || true"
   },
-  "keywords": [],
-  "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",
-  "license": "GPL-3.0",
-  "packageManager": "pnpm@10.25.0",
   "devDependencies": {
     "husky": "9.1.7",
-    "kill-port": "2.0.1",
-    "prettier": "3.7.4",
-    "prettier-plugin-tailwindcss": "0.7.2",
-    "rimraf": "6.1.2",
-    "ts-node": "10.9.2",
     "turbo": "2.6.3"
   }
 }
