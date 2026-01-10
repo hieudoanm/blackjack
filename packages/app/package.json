@@ -27,9 +27,9 @@
 		"prestart": "kill-port 3000",
 		"start": "next start",
 		"pretest": "prisma generate",
-		"test": "jest",
 		"format": "prettier --cache --write .",
-		"lint": "eslint"
+		"lint": "eslint",
+		"test": "jest"
 	},
 	"dependencies": {
 		"@capacitor/android": "8.0.0",
