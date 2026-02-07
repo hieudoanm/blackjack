@@ -96,7 +96,9 @@ const HomePage: NextPage = () => {
 
 	return (
 		<div className="bg-base-200 flex min-h-screen flex-col items-center justify-center p-6">
-			<h1 className="mb-6 text-4xl font-bold">🃏 Card Counting Practice</h1>
+			<h1 className="mb-6 text-center text-4xl font-bold">
+				🃏 Card Counting Practice
+			</h1>
 
 			<div className="card bg-base-100 w-64 p-4 text-center shadow-xl">
 				<div className="mb-2 text-xl">Current Card:</div>
@@ -130,7 +132,7 @@ const HomePage: NextPage = () => {
 				</ul>
 			</div>
 
-			<div className="mt-6 flex gap-2">
+			<div className="mt-6 flex flex-col gap-2 md:flex-row">
 				<button className="btn btn-primary" onClick={dealCard} disabled={done}>
 					Deal Card (TAB)
 				</button>
