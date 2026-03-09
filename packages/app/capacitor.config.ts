@@ -2,7 +2,7 @@ import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
 	appId: 'io.github.hieudoanm.blackjack',
-	appName: '@blackjack/frontend',
+	appName: 'Blackjack',
 	webDir: '../../docs',
 	android: { path: 'mobile/android' },
 	ios: { path: 'mobile/ios' },
